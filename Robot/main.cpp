@@ -10,7 +10,7 @@
 #include "UltraEars.h"
 #include "Accelerate.h"
 
-
+ 
 #include <wiringPi.h>
 #include <list>
 #include <thread>
