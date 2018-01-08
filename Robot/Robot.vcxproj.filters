@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Ultrasonic.cpp" />
+    <ClCompile Include="BumperCheck.cpp" />
+    <ClCompile Include="Drive.cpp" />
+    <ClCompile Include="MotorDrive.cpp" />
+    <ClCompile Include="Node.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Turn.cpp" />
+    <ClCompile Include="Composite.cpp" />
+    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="Sequence.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="DataStorage.cpp" />
+    <ClCompile Include="StopMotor.cpp" />
+    <ClCompile Include="Repeater.cpp" />
+    <ClCompile Include="UltraEars.cpp" />
+    <ClCompile Include="Accelerate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ultrasonic.h" />
+    <ClInclude Include="BumperCheck.h" />
+    <ClInclude Include="Drive.h" />
+    <ClInclude Include="MotorDrive.h" />
+    <ClInclude Include="Node.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Turn.h" />
+    <ClInclude Include="Composite.h" />
+    <ClInclude Include="Selector.h" />
+    <ClInclude Include="Sequence.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="DataStorage.h" />
+    <ClInclude Include="StopMotor.h" />
+    <ClInclude Include="Repeater.h" />
+    <ClInclude Include="UltraEars.h" />
+    <ClInclude Include="Accelerate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Nodes">
+      <UniqueIdentifier>{738ac851-7712-45a2-a250-da1e0e833544}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
